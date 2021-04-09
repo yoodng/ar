@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>个人中心-信电校友录</title>
+<title>个人中心-理工校友录</title>
 <%@ include file="/WEB-INF/views/portal-common/portal-meta.jsp"%>
 </head>
 <body>

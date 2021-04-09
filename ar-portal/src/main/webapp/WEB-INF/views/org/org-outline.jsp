@@ -41,24 +41,25 @@
 
 	<div class="mb30"></div>
 
-	<c:if test="${latestMembers!=null}">
-		<h3 class="subtitle">最新加入校友</h3>
-		<ul class="folder-list">
-			<c:forEach items="${latestMembers}" var="member">
-				<li>
-					<div class="media">
-						<a class="pull-left col-sm-4" style="max-height: 40px;" href="${pageContext.request.contextPath}/ta/show.action?userId=${member.userId}">
-							<img class="thumbnail img-responsive" src="${member.imgPath}"></a>
-						<div class="media-body" style="max-height: 40px;">
-							<a class="email-summary" href="${pageContext.request.contextPath}/ta/show.action?userId=">${member.trueName}</a>
-							<small class="text-muted">
-								<fmt:formatDate value="${member.createTime}" pattern="yyyy-MM-dd HH:mm" />&nbsp; 加入
-							</small>
-							<a class="email-summary" href="${pageContext.request.contextPath}/classroom.action?classId=${member.originId}">${member.originName}</a>
-						</div>
-					</div>
-				</li>
-			</c:forEach>
-		</ul>
-	</c:if>
+	<%--<c:if test="${latestMembers!=null}">--%>
+		<%--<h3 class="subtitle">最新加入校友</h3>--%>
+		<%--<ul class="folder-list">--%>
+			<%--<c:forEach items="${latestMembers}" var="member">--%>
+				<%--<li>--%>
+					<%--<div class="media">--%>
+						<%--<a class="pull-left col-sm-4" style="max-height: 40px;" href="${pageContext.request.contextPath}/ta/show.action?userId=${member.userId}">--%>
+							<%--&lt;%&ndash;<img src="${member.imgPath}" class="thumbnail img-responsive" ></a>&ndash;%&gt;--%>
+							<%--<img src="assets/images/school/snut-front.jpg" class="thumbnail img-responsive" ></a>--%>
+						<%--<div class="media-body" style="max-height: 40px;">--%>
+							<%--<a class="email-summary" href="${pageContext.request.contextPath}/ta/show.action?userId=">${member.trueName}</a>--%>
+							<%--<small class="text-muted">--%>
+								<%--<fmt:formatDate value="${member.createTime}" pattern="yyyy-MM-dd HH:mm" />&nbsp; 加入--%>
+							<%--</small>--%>
+							<%--<a class="email-summary" href="${pageContext.request.contextPath}/classroom.action?classId=${member.originId}">${member.originName}</a>--%>
+						<%--</div>--%>
+					<%--</div>--%>
+				<%--</li>--%>
+			<%--</c:forEach>--%>
+		<%--</ul>--%>
+	<%--</c:if>--%>
 </div>
