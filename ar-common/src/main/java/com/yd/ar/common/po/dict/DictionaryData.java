@@ -1,6 +1,6 @@
-package com.xzit.ar.common.po.dict;
+package com.yd.ar.common.po.dict;
 
-import com.xzit.ar.common.base.BaseEntity;
+import com.yd.ar.common.base.BaseEntity;
 
 public class DictionaryData extends BaseEntity {
     /**

@@ -1,19 +1,19 @@
 /**  
 * @Title: DataCacheKeyGenerator.java <br>
-* @Package com.xzit.ar.common.cache <br>
+* @Package com.yd.ar.common.cache <br>
 * @Description: TODO <br>
 * @author Mr.Black <br>
 * @date 2015年12月30日 下午5:12:41 <br>
 * @version V1.0 <br>
 */
-package com.xzit.ar.common.cache;
+package com.yd.ar.common.cache;
 
 import java.lang.reflect.Method;
 
 import org.springframework.cache.interceptor.KeyGenerator;
 import org.springframework.stereotype.Component;
 
-import com.xzit.ar.common.page.Page;
+import com.yd.ar.common.page.Page;
 
 
 @Component("ckg")

@@ -51,7 +51,7 @@
 					<warSourceDirectory>src/main/webapp</warSourceDirectory>
 					<overlays>
 						<overlay>
-							<groupId>com.xzit.ar</groupId>
+							<groupId>com.yd.ar</groupId>
 							<artifactId>ar-manage</artifactId>
 							<excludes>
 								<exclude>WEB-INF/lib/*</exclude>

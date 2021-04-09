@@ -1,8 +1,8 @@
-package com.xzit.ar.common.po.recruit;
+package com.yd.ar.common.po.recruit;
 
 import java.util.Date;
 
-import com.xzit.ar.common.base.BaseEntity;
+import com.yd.ar.common.base.BaseEntity;
 
 public class RecruitUnit extends BaseEntity {
     /**

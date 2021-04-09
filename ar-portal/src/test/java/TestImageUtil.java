@@ -1,7 +1,4 @@
-import com.xzit.ar.common.constant.PathConstant;
-import com.xzit.ar.common.exception.UtilException;
-import com.xzit.ar.common.util.ImageUtil;
-import org.springframework.web.multipart.MultipartFile;
+import com.yd.ar.common.constant.PathConstant;
 
 import java.io.File;
 import java.text.SimpleDateFormat;

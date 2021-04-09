@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.xzit.ar.common.mapper.info.CollectMapper" >
-  <resultMap id="BaseResultMap" type="com.xzit.ar.common.po.info.Collect" >
+<mapper namespace="com.yd.ar.common.mapper.info.CollectMapper" >
+  <resultMap id="BaseResultMap" type="com.yd.ar.common.po.info.Collect" >
     <id column="collect_id" property="collectId" jdbcType="INTEGER" />
     <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
     <result column="info_id" property="infoId" jdbcType="INTEGER" />
@@ -22,7 +22,7 @@
     delete from collect
     where collect_id = #{collectId,jdbcType=INTEGER}
   </delete>
-  <insert id="insert" parameterType="com.xzit.ar.common.po.info.Collect" >
+  <insert id="insert" parameterType="com.yd.ar.common.po.info.Collect" >
     insert into collect (collect_id, create_time, info_id, 
       user_id, state, state_time
       )
@@ -30,7 +30,7 @@
       #{userId,jdbcType=INTEGER}, #{state,jdbcType=CHAR}, #{stateTime,jdbcType=TIMESTAMP}
       )
   </insert>
-  <insert id="insertSelective" parameterType="com.xzit.ar.common.po.info.Collect" >
+  <insert id="insertSelective" parameterType="com.yd.ar.common.po.info.Collect" >
     insert into collect
     <trim prefix="(" suffix=")" suffixOverrides="," >
       <if test="collectId != null" >
@@ -73,7 +73,7 @@
       </if>
     </trim>
   </insert>
-  <update id="updateByPrimaryKeySelective" parameterType="com.xzit.ar.common.po.info.Collect" >
+  <update id="updateByPrimaryKeySelective" parameterType="com.yd.ar.common.po.info.Collect" >
     update collect
     <set >
       <if test="createTime != null" >
@@ -94,7 +94,7 @@
     </set>
     where collect_id = #{collectId,jdbcType=INTEGER}
   </update>
-  <update id="updateByPrimaryKey" parameterType="com.xzit.ar.common.po.info.Collect" >
+  <update id="updateByPrimaryKey" parameterType="com.yd.ar.common.po.info.Collect" >
     update collect
     set create_time = #{createTime,jdbcType=TIMESTAMP},
       info_id = #{infoId,jdbcType=INTEGER},

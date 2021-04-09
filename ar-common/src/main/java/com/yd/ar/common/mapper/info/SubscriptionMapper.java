@@ -1,6 +1,6 @@
-package com.xzit.ar.common.mapper.info;
+package com.yd.ar.common.mapper.info;
 
-import com.xzit.ar.common.po.info.Subscription;
+import com.yd.ar.common.po.info.Subscription;
 
 public interface SubscriptionMapper {
     int deleteByPrimaryKey(Integer subId);

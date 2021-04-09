@@ -3,7 +3,7 @@
 <configuration>
 	
 	<typeAliases>
-		<package name="com.xzit.ar.common.po"/>
+		<package name="com.yd.ar.common.po"/>
 	</typeAliases>
 	
 </configuration>

@@ -1,8 +1,8 @@
-package com.xzit.ar.common.po.user;
+package com.yd.ar.common.po.user;
 
 import java.util.Date;
 
-import com.xzit.ar.common.base.BaseEntity;
+import com.yd.ar.common.base.BaseEntity;
 
 public class UserInfo extends BaseEntity {
     /**

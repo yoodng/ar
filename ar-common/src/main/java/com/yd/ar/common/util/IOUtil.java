@@ -1,19 +1,19 @@
 /**  
 * @Title: IOUtil.java <br>
-* @Package com.xzit.ar.common.util <br>
+* @Package com.yd.ar.common.util <br>
 * @Description: TODO <br>
 * @author Mr.Black <br>
 * @date 2015年12月10日 下午8:23:32 <br>
 * @version V1.0 <br>
 */
-package com.xzit.ar.common.util;
+package com.yd.ar.common.util;
 
 import java.io.*;
 
 import org.apache.commons.io.IOUtils;
 
-import com.xzit.ar.common.exception.ExceptionCode;
-import com.xzit.ar.common.exception.UtilException;
+import com.yd.ar.common.exception.ExceptionCode;
+import com.yd.ar.common.exception.UtilException;
 
 
 public final class IOUtil {

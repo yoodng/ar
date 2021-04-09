@@ -1,13 +1,13 @@
-package com.xzit.ar.common.mapper.dict;
+package com.yd.ar.common.mapper.dict;
 
 import java.util.List;
 import java.util.Map;
 
 import org.apache.ibatis.annotations.Param;
 
-import com.xzit.ar.common.base.BaseMapper;
-import com.xzit.ar.common.page.Page;
-import com.xzit.ar.common.po.dict.DictionaryData;
+import com.yd.ar.common.base.BaseMapper;
+import com.yd.ar.common.page.Page;
+import com.yd.ar.common.po.dict.DictionaryData;
 
 public interface DictionaryDataMapper extends BaseMapper{
 	int deleteByPrimaryKey(Integer id);

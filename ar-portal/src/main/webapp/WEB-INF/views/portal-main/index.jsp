@@ -22,10 +22,10 @@
     <!-- 轮播（Carousel）项目 -->
     <div class="carousel-inner">
         <div class="item active"><img src="${pageContext.request.contextPath}/assets/images/school/xzit-front-wide.jpg"></div>
-        <%--&lt;%&ndash;<div class="item"><img src="${pageContext.request.contextPath}/assets/images/school/xzit-south.jpg"></div>&ndash;%&gt;--%>
-        <%--<div class="item"><img src="${pageContext.request.contextPath}/assets/images/school/xzit-motto.jpg"></div>--%>
-        <%--<div class="item"><img src="${pageContext.request.contextPath}/assets/images/school/xzit-library.jpg"></div>--%>
-        <%--<div class="item"><img src="${pageContext.request.contextPath}/assets/images/school/xzit-alumni.jpg"></div>--%>
+        <%--&lt;%&ndash;<div class="item"><img src="${pageContext.request.contextPath}/assets/images/school/yd-south.jpg"></div>&ndash;%&gt;--%>
+        <%--<div class="item"><img src="${pageContext.request.contextPath}/assets/images/school/yd-motto.jpg"></div>--%>
+        <%--<div class="item"><img src="${pageContext.request.contextPath}/assets/images/school/yd-library.jpg"></div>--%>
+        <%--<div class="item"><img src="${pageContext.request.contextPath}/assets/images/school/yd-alumni.jpg"></div>--%>
     </div>
     <!-- 轮播（Carousel）导航 -->
     <a class="carousel-control focus-navigation left" href="#myCarousel" data-slide="prev">

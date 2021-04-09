@@ -1,4 +1,4 @@
-package com.xzit.ar.common.vo.origin;
+package com.yd.ar.common.vo.origin;
 
 public class OriginVo {
 }

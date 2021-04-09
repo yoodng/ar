@@ -12,17 +12,17 @@ PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
 	</settings>
 	
 	<typeAliases>
-		<package name="com.xzit.ar.common.po.album"/>
-		<package name="com.xzit.ar.common.po.attachment"/>
-		<package name="com.xzit.ar.common.po.dict"/>
-		<package name="com.xzit.ar.common.po.global"/>
-		<package name="com.xzit.ar.common.po.image"/>
-		<package name="com.xzit.ar.common.po.log"/>
-		<package name="com.xzit.ar.common.po.message"/>
-		<package name="com.xzit.ar.common.po.origin"/>
-		<package name="com.xzit.ar.common.po.recruit"/>
-		<package name="com.xzit.ar.common.po.role"/>
-		<package name="com.xzit.ar.common.po.user"/>
+		<package name="com.yd.ar.common.po.album"/>
+		<package name="com.yd.ar.common.po.attachment"/>
+		<package name="com.yd.ar.common.po.dict"/>
+		<package name="com.yd.ar.common.po.global"/>
+		<package name="com.yd.ar.common.po.image"/>
+		<package name="com.yd.ar.common.po.log"/>
+		<package name="com.yd.ar.common.po.message"/>
+		<package name="com.yd.ar.common.po.origin"/>
+		<package name="com.yd.ar.common.po.recruit"/>
+		<package name="com.yd.ar.common.po.role"/>
+		<package name="com.yd.ar.common.po.user"/>
 	</typeAliases>
 	
 	

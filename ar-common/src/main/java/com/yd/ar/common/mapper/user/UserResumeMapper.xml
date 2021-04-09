@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.xzit.ar.common.mapper.user.UserResumeMapper" >
-	<resultMap id="BaseResultMap" type="com.xzit.ar.common.po.user.UserResume" >
+<mapper namespace="com.yd.ar.common.mapper.user.UserResumeMapper" >
+	<resultMap id="BaseResultMap" type="com.yd.ar.common.po.user.UserResume" >
 		<id column="resume_id" property="resumeId" jdbcType="INTEGER" />
 		<result column="resume_title" property="resumeTitle" jdbcType="VARCHAR" />
 		<result column="prof_type" property="profType" jdbcType="VARCHAR" />
@@ -42,7 +42,7 @@
     where resume_id = #{resumeId,jdbcType=INTEGER}</delete>
 	
     <!-- save -->
-	<insert id="save" parameterType="com.xzit.ar.common.po.user.UserResume">
+	<insert id="save" parameterType="com.yd.ar.common.po.user.UserResume">
 		insert into user_resume
 		<trim prefix="(" suffix=")" suffixOverrides="," >
 			<if test="resumeId != null" >resume_id,</if>
@@ -81,7 +81,7 @@
 	</insert>
 	
 	<!-- update -->
-	<update id="update" parameterType="com.xzit.ar.common.po.user.UserResume">
+	<update id="update" parameterType="com.yd.ar.common.po.user.UserResume">
 		update user_resume
 		<set >
 			<if test="resumeTitle != null" >resume_title = #{resumeTitle,jdbcType=VARCHAR},</if>

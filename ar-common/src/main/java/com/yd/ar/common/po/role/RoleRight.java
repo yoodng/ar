@@ -1,6 +1,6 @@
-package com.xzit.ar.common.po.role;
+package com.yd.ar.common.po.role;
 
-import com.xzit.ar.common.base.BaseEntity;
+import com.yd.ar.common.base.BaseEntity;
 
 public class RoleRight extends BaseEntity {
     /**

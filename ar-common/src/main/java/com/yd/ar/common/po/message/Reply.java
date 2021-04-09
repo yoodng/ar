@@ -1,8 +1,8 @@
-package com.xzit.ar.common.po.message;
+package com.yd.ar.common.po.message;
 
 import java.util.Date;
 
-import com.xzit.ar.common.base.BaseEntity;
+import com.yd.ar.common.base.BaseEntity;
 
 public class Reply extends BaseEntity{
     /**

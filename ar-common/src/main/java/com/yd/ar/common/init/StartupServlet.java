@@ -1,25 +1,25 @@
 /**  
 * @Title: StartupServlet.java <br>
-* @Package com.xzit.ar.common.init <br>
+* @Package com.yd.ar.common.init <br>
 * @Description: TODO <br>
 * @author Mr.Black <br>
 * @date 2016年1月2日 下午9:14:57 <br>
 * @version V1.0 <br>
 */
-package com.xzit.ar.common.init;
+package com.yd.ar.common.init;
 
 import javax.servlet.ServletConfig;
 import javax.servlet.ServletException;
 
-import com.xzit.ar.common.util.origin.OriginUtil;
-import com.xzit.ar.common.util.info.InfoUtil;
+import com.yd.ar.common.util.origin.OriginUtil;
+import com.yd.ar.common.util.info.InfoUtil;
 import org.springframework.web.servlet.DispatcherServlet;
 
-import com.xzit.ar.common.init.context.ARContext;
-import com.xzit.ar.common.mapper.dict.DictionaryDataMapper;
-import com.xzit.ar.common.util.dictionary.DictionaryUtil;
-import com.xzit.ar.common.util.privilege.PrivilegeUtil;
-import com.xzit.ar.common.util.recruit.RecruitUtil;
+import com.yd.ar.common.init.context.ARContext;
+import com.yd.ar.common.mapper.dict.DictionaryDataMapper;
+import com.yd.ar.common.util.dictionary.DictionaryUtil;
+import com.yd.ar.common.util.privilege.PrivilegeUtil;
+import com.yd.ar.common.util.recruit.RecruitUtil;
 
 
 public class StartupServlet extends DispatcherServlet {

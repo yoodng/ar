@@ -1,12 +1,12 @@
 /**
  * @Title: CommonUtil.java
- * @Package com.xzit.ar.common.util
+ * @Package com.yd.ar.common.util
  * @Description: TODO
  * @author Mr.Black
  * @date 2015年12月10日 下午5:09:50
  * @version V1.0
  */
-package com.xzit.ar.common.util;
+package com.yd.ar.common.util;
 
 import java.io.File;
 import java.security.MessageDigest;
@@ -14,9 +14,8 @@ import java.text.MessageFormat;
 import java.text.SimpleDateFormat;
 import java.util.*;
 
-import com.xzit.ar.common.constant.PathConstant;
-import com.xzit.ar.common.exception.ExceptionCode;
-import com.xzit.ar.common.exception.UtilException;
+import com.yd.ar.common.exception.ExceptionCode;
+import com.yd.ar.common.exception.UtilException;
 
 
 public class CommonUtil {

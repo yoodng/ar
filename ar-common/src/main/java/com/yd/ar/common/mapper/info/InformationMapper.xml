@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.xzit.ar.common.mapper.info.InformationMapper">
-    <resultMap id="BaseResultMap" type="com.xzit.ar.common.po.info.Information">
+<mapper namespace="com.yd.ar.common.mapper.info.InformationMapper">
+    <resultMap id="BaseResultMap" type="com.yd.ar.common.po.info.Information">
         <id column="info_id" property="infoId" jdbcType="INTEGER"/>
         <result column="info_title" property="infoTitle" jdbcType="VARCHAR"/>
         <result column="theme" property="theme" jdbcType="VARCHAR"/>
@@ -39,7 +39,7 @@
 	</select>
 
     <!--组织内指定成员发布的信息-->
-    <select id="loadOriginUserInfos" parameterType="com.xzit.ar.common.po.info.Information" resultType="map">
+    <select id="loadOriginUserInfos" parameterType="com.yd.ar.common.po.info.Information" resultType="map">
 		SELECT info_id infoId,
 				info_title infoTitle
 		FROM information
@@ -278,7 +278,7 @@
 
 
     <!-- save -->
-    <insert id="save" parameterType="com.xzit.ar.common.po.info.Information">
+    <insert id="save" parameterType="com.yd.ar.common.po.info.Information">
         insert into information
         <trim prefix="(" suffix=")" suffixOverrides=",">
             <if test="infoId != null">info_id,</if>
@@ -317,7 +317,7 @@
     </insert>
 
     <!-- update -->
-    <update id="update" parameterType="com.xzit.ar.common.po.info.Information">
+    <update id="update" parameterType="com.yd.ar.common.po.info.Information">
         update information
         <set>
             <if test="infoTitle != null">info_title = #{infoTitle,jdbcType=VARCHAR},</if>

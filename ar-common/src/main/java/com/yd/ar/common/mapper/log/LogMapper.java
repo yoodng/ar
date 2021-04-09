@@ -1,6 +1,6 @@
-package com.xzit.ar.common.mapper.log;
+package com.yd.ar.common.mapper.log;
 
-import com.xzit.ar.common.po.log.Log;
+import com.yd.ar.common.po.log.Log;
 
 public interface LogMapper {
     int deleteByPrimaryKey(Integer logId);

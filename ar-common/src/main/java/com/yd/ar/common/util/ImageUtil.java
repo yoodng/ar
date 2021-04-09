@@ -1,12 +1,12 @@
 /**
  * @Title: ImageUtil.java <br>
- * @Package com.xzit.ar.common.util <br>
+ * @Package com.yd.ar.common.util <br>
  * @Description: TODO <br>
  * @author Mr.Black <br>
  * @date 2015年12月10日 下午8:15:28 <br>
  * @version V1.0 <br>
  */
-package com.xzit.ar.common.util;
+package com.yd.ar.common.util;
 
 import java.awt.Graphics;
 import java.awt.image.BufferedImage;
@@ -16,9 +16,9 @@ import java.util.UUID;
 
 import javax.imageio.ImageIO;
 
-import com.xzit.ar.common.constant.PathConstant;
-import com.xzit.ar.common.exception.ExceptionCode;
-import com.xzit.ar.common.exception.UtilException;
+import com.yd.ar.common.constant.PathConstant;
+import com.yd.ar.common.exception.ExceptionCode;
+import com.yd.ar.common.exception.UtilException;
 
 import net.coobird.thumbnailator.Thumbnails;
 import net.coobird.thumbnailator.Thumbnails.Builder;

@@ -1,7 +1,7 @@
-package com.xzit.ar.common.mapper.user;
+package com.yd.ar.common.mapper.user;
 
-import com.xzit.ar.common.base.BaseMapper;
-import com.xzit.ar.common.po.user.UserJob;
+import com.yd.ar.common.base.BaseMapper;
+import com.yd.ar.common.po.user.UserJob;
 
 import java.util.List;
 

@@ -1,12 +1,12 @@
 /**  
 * @Title: WebUtil.java <br>
-* @Package com.xzit.ar.common.util <br>
+* @Package com.yd.ar.common.util <br>
 * @Description: TODO <br>
 * @author Mr.Black <br>
 * @date 2015年12月21日 下午3:44:47 <br>
 * @version V1.0 <br>
 */ 
-package com.xzit.ar.common.util;
+package com.yd.ar.common.util;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
@@ -15,8 +15,8 @@ import org.springframework.web.context.request.RequestAttributes;
 import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;
 
-import com.xzit.ar.common.constant.WebConstant;
-import com.xzit.ar.common.po.user.User;
+import com.yd.ar.common.constant.WebConstant;
+import com.yd.ar.common.po.user.User;
 
 public final class WebUtil {
 

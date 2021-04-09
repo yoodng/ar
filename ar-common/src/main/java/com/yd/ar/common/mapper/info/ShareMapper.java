@@ -1,6 +1,6 @@
-package com.xzit.ar.common.mapper.info;
+package com.yd.ar.common.mapper.info;
 
-import com.xzit.ar.common.po.info.Share;
+import com.yd.ar.common.po.info.Share;
 
 public interface ShareMapper {
     int insert(Share record);

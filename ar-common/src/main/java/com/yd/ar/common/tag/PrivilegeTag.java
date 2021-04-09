@@ -1,12 +1,12 @@
 /**  
  * @Title: PrivilegeTag.java
- * @Package com.xzit.ar.common.authorization.tag
+ * @Package com.yd.ar.common.authorization.tag
  * @Description: TODO
  * @author Mr.Black
  * @date 2016年1月8日 下午10:58:20
  * @version V1.0  
  */
-package com.xzit.ar.common.tag;
+package com.yd.ar.common.tag;
 
 import javax.servlet.jsp.tagext.BodyTagSupport;
 

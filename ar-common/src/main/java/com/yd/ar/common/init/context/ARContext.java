@@ -1,12 +1,12 @@
 /**  
  * @Title: ARContext.java
- * @Package com.xzit.ar.common.init.context
+ * @Package com.yd.ar.common.init.context
  * @Description: TODO
  * @author Mr.Black
  * @date 2016年2月3日 下午9:56:34
  * @version V1.0  
  */
-package com.xzit.ar.common.init.context;
+package com.yd.ar.common.init.context;
 
 import java.util.List;
 import java.util.Map;
@@ -15,8 +15,8 @@ import javax.servlet.ServletContext;
 
 import org.springframework.context.ApplicationContext;
 
-import com.xzit.ar.common.mapper.dict.DictionaryDataMapper;
-import com.xzit.ar.common.po.role.Right;
+import com.yd.ar.common.mapper.dict.DictionaryDataMapper;
+import com.yd.ar.common.po.role.Right;
 
 
 public class ARContext {

@@ -1,8 +1,8 @@
-package com.xzit.ar.common.po.image;
+package com.yd.ar.common.po.image;
 
 import java.util.Date;
 
-import com.xzit.ar.common.base.BaseEntity;
+import com.yd.ar.common.base.BaseEntity;
 
 public class Image extends BaseEntity {
     /**

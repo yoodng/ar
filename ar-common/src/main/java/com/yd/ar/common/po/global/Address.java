@@ -1,8 +1,8 @@
-package com.xzit.ar.common.po.global;
+package com.yd.ar.common.po.global;
 
 import java.util.Date;
 
-import com.xzit.ar.common.base.BaseEntity;
+import com.yd.ar.common.base.BaseEntity;
 
 public class Address extends BaseEntity{
     /**

@@ -1,8 +1,8 @@
-package com.xzit.ar.common.mapper.album;
+package com.yd.ar.common.mapper.album;
 
-import com.xzit.ar.common.base.BaseMapper;
-import com.xzit.ar.common.exception.ServiceException;
-import com.xzit.ar.common.page.Page;
+import com.yd.ar.common.base.BaseMapper;
+import com.yd.ar.common.exception.ServiceException;
+import com.yd.ar.common.page.Page;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;

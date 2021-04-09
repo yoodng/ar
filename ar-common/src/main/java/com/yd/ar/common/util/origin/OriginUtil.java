@@ -1,17 +1,17 @@
 /**
  * @Title: OriginUtil.java
- * @Package com.xzit.ar.common.util.origin
+ * @Package com.yd.ar.common.util.origin
  * @Description: TODO
  * @author Mr.Black
  * @date 2016年2月18日 下午8:59:36
  * @version V1.0
  */
-package com.xzit.ar.common.util.origin;
+package com.yd.ar.common.util.origin;
 
-import com.xzit.ar.common.exception.UtilException;
-import com.xzit.ar.common.init.context.ARContext;
-import com.xzit.ar.common.mapper.dict.DictionaryDataMapper;
-import com.xzit.ar.common.mapper.origin.GradeMapper;
+import com.yd.ar.common.exception.UtilException;
+import com.yd.ar.common.init.context.ARContext;
+import com.yd.ar.common.mapper.dict.DictionaryDataMapper;
+import com.yd.ar.common.mapper.origin.GradeMapper;
 
 
 public class OriginUtil {

@@ -1,7 +1,7 @@
-package com.xzit.ar.common.mapper.user;
+package com.yd.ar.common.mapper.user;
 
-import com.xzit.ar.common.base.BaseMapper;
-import com.xzit.ar.common.po.user.UserInfo;
+import com.yd.ar.common.base.BaseMapper;
+import com.yd.ar.common.po.user.UserInfo;
 import org.apache.ibatis.annotations.Param;
 
 public interface UserInfoMapper extends BaseMapper {

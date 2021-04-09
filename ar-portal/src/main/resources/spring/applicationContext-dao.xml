@@ -27,7 +27,7 @@
         <property name="dataSource" ref="dataSource"/>
         <!-- 分页 拦截器 -->
         <property name="plugins">
-            <bean class="com.xzit.ar.common.page.PageInterceptor"></bean>
+            <bean class="com.yd.ar.common.page.PageInterceptor"></bean>
         </property>
         <!-- configurationProperties -->
         <property name="configurationProperties">
@@ -52,7 +52,7 @@
 
     <!-- mapper的批量扫描 -->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-        <property name="basePackage" value="com.xzit.ar.common.mapper"/>
+        <property name="basePackage" value="com.yd.ar.common.mapper"/>
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
     </bean>
 

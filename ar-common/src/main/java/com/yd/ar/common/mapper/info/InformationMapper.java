@@ -1,14 +1,13 @@
-package com.xzit.ar.common.mapper.info;
+package com.yd.ar.common.mapper.info;
 
 import java.util.List;
 import java.util.Map;
 
-import com.xzit.ar.common.po.info.Information;
-import com.xzit.ar.common.vo.info.InformationVo;
+import com.yd.ar.common.po.info.Information;
 import org.apache.ibatis.annotations.Param;
 
-import com.xzit.ar.common.base.BaseMapper;
-import com.xzit.ar.common.page.Page;
+import com.yd.ar.common.base.BaseMapper;
+import com.yd.ar.common.page.Page;
 
 public interface InformationMapper extends BaseMapper {
 

@@ -1,14 +1,14 @@
 /**  
 * @Title: Logger.java <br>
-* @Package com.xzit.ar.common.base <br>
+* @Package com.yd.ar.common.base <br>
 * @Description: TODO <br>
 * @author Mr.Black <br>
 * @date 2015年12月21日 下午1:07:26 <br>
 * @version V1.0 <br>
 */ 
-package com.xzit.ar.common.base;
+package com.yd.ar.common.base;
 
-import com.xzit.ar.common.util.CommonUtil;
+import com.yd.ar.common.util.CommonUtil;
 
 public class Logger {
 

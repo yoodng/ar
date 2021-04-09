@@ -1,6 +1,6 @@
-package com.xzit.ar.common.mapper.user;
+package com.yd.ar.common.mapper.user;
 
-import com.xzit.ar.common.po.user.UserRole;
+import com.yd.ar.common.po.user.UserRole;
 
 public interface UserRoleMapper {
     int insert(UserRole record);

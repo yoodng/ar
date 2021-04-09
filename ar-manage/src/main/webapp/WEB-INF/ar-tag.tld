@@ -7,7 +7,7 @@
 	<uri>/ar-taglib</uri>
 	<tag>
 		<name>dictdata</name>
-		<tag-class>com.xzit.ar.common.tag.DictionaryTag</tag-class>
+		<tag-class>com.yd.ar.common.tag.DictionaryTag</tag-class>
 		<body-content>empty</body-content>
 		<attribute>
 			<name>dictdata</name>
@@ -22,7 +22,7 @@
 	</tag>
 	<tag>
 		<name>dict</name>
-		<tag-class>com.xzit.ar.common.tag.DictionaryTag</tag-class>
+		<tag-class>com.yd.ar.common.tag.DictionaryTag</tag-class>
 		<body-content>empty</body-content>
 		<attribute>
 			<name>dict</name>
@@ -32,7 +32,7 @@
 	</tag>
 	<tag>
 		<name>ac</name>
-		<tag-class>com.xzit.ar.common.tag.PrivilegeTag</tag-class>
+		<tag-class>com.yd.ar.common.tag.PrivilegeTag</tag-class>
 		<body-content>JSP</body-content>
 		<attribute>
 			<name>url</name>
@@ -42,7 +42,7 @@
 	</tag>
 	<tag>
 		<name>top</name>
-		<tag-class>com.xzit.ar.common.tag.TopTag</tag-class>
+		<tag-class>com.yd.ar.common.tag.TopTag</tag-class>
 		<body-content>JSP</body-content>
 		<attribute>
 			<name>value</name>
@@ -52,7 +52,7 @@
 	</tag>
 	<tag>
 		<name>sub</name>
-		<tag-class>com.xzit.ar.common.tag.SubStringTag</tag-class>
+		<tag-class>com.yd.ar.common.tag.SubStringTag</tag-class>
 		<body-content>empty</body-content>
 		<attribute>
 			<name>value</name>
@@ -67,7 +67,7 @@
 	</tag>
 	<tag>
 		<name>exist</name>
-		<tag-class>com.xzit.ar.common.tag.ExistInTag</tag-class>
+		<tag-class>com.yd.ar.common.tag.ExistInTag</tag-class>
 		<body-content>JSP</body-content>
 		<attribute>
 			<name>value</name>
@@ -82,7 +82,7 @@
 	</tag>
 	<tag>
 		<name>notexist</name>
-		<tag-class>com.xzit.ar.common.tag.NotExistInTag</tag-class>
+		<tag-class>com.yd.ar.common.tag.NotExistInTag</tag-class>
 		<body-content>JSP</body-content>
 		<attribute>
 			<name>value</name>

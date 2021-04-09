@@ -1,12 +1,12 @@
 /**
  * @Title: BaseController.java <br>
- * @Package com.xzit.ar.common.base <br>
+ * @Package com.yd.ar.common.base <br>
  * @Description: TODO <br>
  * @author Mr.Black <br>
  * @date 2015年12月21日 上午11:08:45 <br>
  * @version V1.0 <br>
  */
-package com.xzit.ar.common.base;
+package com.yd.ar.common.base;
 
 import java.io.UnsupportedEncodingException;
 import java.util.Map;
@@ -23,11 +23,11 @@ import org.springframework.web.context.request.ServletRequestAttributes;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
-import com.xzit.ar.common.constant.GlobalConstants;
-import com.xzit.ar.common.constant.WebConstant;
-import com.xzit.ar.common.exception.AssertException;
-import com.xzit.ar.common.util.Assert;
-import com.xzit.ar.common.util.CommonUtil;
+import com.yd.ar.common.constant.GlobalConstants;
+import com.yd.ar.common.constant.WebConstant;
+import com.yd.ar.common.exception.AssertException;
+import com.yd.ar.common.util.Assert;
+import com.yd.ar.common.util.CommonUtil;
 
 public abstract class BaseController {
 

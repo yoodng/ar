@@ -1,19 +1,19 @@
 /**
  * @Title: ExistInTag.java
- * @Package com.xzit.ar.common.tag
+ * @Package com.yd.ar.common.tag
  * @Description: TODO
  * @author Mr.Black
  * @date 2016年3月2日 上午9:35:45
  * @version V1.0
  */
-package com.xzit.ar.common.tag;
+package com.yd.ar.common.tag;
 
 import java.util.Collection;
 
 import javax.servlet.jsp.JspException;
 import javax.servlet.jsp.tagext.BodyTagSupport;
 
-import com.xzit.ar.common.util.CommonUtil;
+import com.yd.ar.common.util.CommonUtil;
 
 /**
  * @ClassName: ExistInTag

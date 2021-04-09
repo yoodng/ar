@@ -1,12 +1,12 @@
 /**  
 * @Title: AuthorizationUtil.java <br>
-* @Package com.xzit.ar.common.authorization.util <br>
+* @Package com.yd.ar.common.authorization.util <br>
 * @Description: TODO <br>
 * @author Mr.Black <br>
 * @date 2016年1月3日 下午3:00:38 <br>
 * @version V1.0 <br>
 */
-package com.xzit.ar.common.util.privilege;
+package com.yd.ar.common.util.privilege;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -18,12 +18,12 @@ import org.springframework.web.method.HandlerMethod;
 import org.springframework.web.servlet.mvc.method.RequestMappingInfo;
 import org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping;
 
-import com.xzit.ar.common.exception.GlobalException;
-import com.xzit.ar.common.exception.UtilException;
-import com.xzit.ar.common.init.context.ARContext;
-import com.xzit.ar.common.mapper.role.RightMapper;
-import com.xzit.ar.common.po.role.Right;
-import com.xzit.ar.common.util.CommonUtil;
+import com.yd.ar.common.exception.GlobalException;
+import com.yd.ar.common.exception.UtilException;
+import com.yd.ar.common.init.context.ARContext;
+import com.yd.ar.common.mapper.role.RightMapper;
+import com.yd.ar.common.po.role.Right;
+import com.yd.ar.common.util.CommonUtil;
 
 
 public class PrivilegeUtil {

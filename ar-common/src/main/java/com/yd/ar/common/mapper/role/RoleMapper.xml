@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.xzit.ar.common.mapper.role.RoleMapper">
-    <resultMap id="BaseResultMap" type="com.xzit.ar.common.po.role.Role">
+<mapper namespace="com.yd.ar.common.mapper.role.RoleMapper">
+    <resultMap id="BaseResultMap" type="com.yd.ar.common.po.role.Role">
         <id column="role_id" property="roleId" jdbcType="INTEGER"/>
         <result column="role_name" property="roleName" jdbcType="VARCHAR"/>
         <result column="role_value" property="roleValue" jdbcType="VARCHAR"/>
@@ -25,7 +25,7 @@
     <select id="getRoleId" resultType="java.lang.Integer">select role_id
 		from role
 		where role_value=#{roleValue}</select>
-    <select id="getRightsByRole" resultType="com.xzit.ar.common.po.role.Right">
+    <select id="getRightsByRole" resultType="com.yd.ar.common.po.role.Right">
 		select r.right_id rightId, r.right_name rightName, r.state state, r.right_pos rightPos, 
 				r.right_code rightCode
 		from role_right rr, `right` r
@@ -47,7 +47,7 @@
     where role_id = #{roleId,jdbcType=INTEGER}</delete>
 
 
-    <insert id="save" parameterType="com.xzit.ar.common.po.role.Role">
+    <insert id="save" parameterType="com.yd.ar.common.po.role.Role">
         insert into role
         <trim prefix="(" suffix=")" suffixOverrides=",">
             <if test="roleId != null">role_id,</if>
@@ -66,7 +66,7 @@
             <if test="stateTime != null">#{stateTime,jdbcType=TIMESTAMP},</if>
         </trim>
     </insert>
-    <update id="update" parameterType="com.xzit.ar.common.po.role.Role">
+    <update id="update" parameterType="com.yd.ar.common.po.role.Role">
         update role
         <set>
             <if test="roleName != null">role_name = #{roleName,jdbcType=VARCHAR},</if>

@@ -1,12 +1,12 @@
 /**  
  * @Title: QueryRecruits.java
- * @Package com.xzit.ar.common.cache.portal.recruit
+ * @Package com.yd.ar.common.cache.portal.recruit
  * @Description: TODO
  * @author Mr.Black
  * @date 2016年1月26日 下午11:30:34
  * @version V1.0  
  */
-package com.xzit.ar.common.cache.portal.recruit;
+package com.yd.ar.common.cache.portal.recruit;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Inherited;

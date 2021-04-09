@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.xzit.ar.common.mapper.dict.DictionaryMapper" >
+<mapper namespace="com.yd.ar.common.mapper.dict.DictionaryMapper" >
 	
-	<resultMap id="BaseResultMap" type="com.xzit.ar.common.po.dict.Dictionary" >
+	<resultMap id="BaseResultMap" type="com.yd.ar.common.po.dict.Dictionary" >
 		<id column="dict_value" property="dictValue" jdbcType="VARCHAR" />
 		<result column="dict_name" property="dictName" jdbcType="VARCHAR" />
 		<result column="remark" property="remark" jdbcType="VARCHAR" />
@@ -23,7 +23,7 @@
     	where dict_value = #{dictValue,jdbcType=VARCHAR}
 	</select>
 	<!-- 获取所有 -->
-	<select id="getAll" resultType="com.xzit.ar.common.po.dict.Dictionary">
+	<select id="getAll" resultType="com.yd.ar.common.po.dict.Dictionary">
 		SELECT dictionary.dict_name dictName, dictionary.dict_value dictValue FROM dictionary
 	</select>
 	
@@ -32,7 +32,7 @@
     where dict_value = #{dictValue,jdbcType=VARCHAR}</delete>
 	
 	<!-- 插入 -->
-	<insert id="save" parameterType="com.xzit.ar.common.po.dict.Dictionary">
+	<insert id="save" parameterType="com.yd.ar.common.po.dict.Dictionary">
 		insert into dictionary
 		<trim prefix="(" suffix=")" suffixOverrides="," >
 			<if test="dictValue != null and dictValue != ''" >dict_value,</if>
@@ -47,7 +47,7 @@
 	</insert>
 	
 	<!-- Update -->
-	<update id="update" parameterType="com.xzit.ar.common.po.dict.Dictionary">
+	<update id="update" parameterType="com.yd.ar.common.po.dict.Dictionary">
 		update dictionary
 		<set >
 			<if test="dictName != null" >dict_name = #{dictName,jdbcType=VARCHAR},</if>

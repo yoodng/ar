@@ -1,4 +1,4 @@
-package com.xzit.ar.common.po.info;
+package com.yd.ar.common.po.info;
 
 import java.util.Date;
 

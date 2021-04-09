@@ -13,7 +13,7 @@
 		http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.2.xsd">
 	
 	<!-- 使用组件扫描controller -->
-	<context:component-scan base-package="com.xzit.ar">
+	<context:component-scan base-package="com.yd.ar">
 		<context:exclude-filter type="annotation" expression="org.springframework.stereotype.Service"/>
 	</context:component-scan>
 	
@@ -45,7 +45,7 @@
 	</bean>
 	
 	<!-- 全局异常解析 -->
-	<bean class="com.xzit.ar.common.exception.handler.GlobalExceptionHandler"/>
+	<bean class="com.yd.ar.common.exception.handler.GlobalExceptionHandler"/>
 	
 	<!-- 静态资源 -->
 	<mvc:resources mapping="/assets/**" location="/assets/" />
@@ -55,7 +55,7 @@
 		<!-- 登录认证拦截器 -->
 		<mvc:interceptor>
 			<mvc:mapping path="/**"/>
-			<bean class="com.xzit.ar.common.interceptor.LoginInterceptor"/>
+			<bean class="com.yd.ar.common.interceptor.LoginInterceptor"/>
 		</mvc:interceptor>
 		<!-- 权限认证拦截器 -->
 	</mvc:interceptors>

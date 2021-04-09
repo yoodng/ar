@@ -1,12 +1,12 @@
 /**  
  * @Title: DictionaryTag.java
- * @Package com.xzit.ar.common.tag
+ * @Package com.yd.ar.common.tag
  * @Description: TODO
  * @author Mr.Black
  * @date 2016年1月8日 下午11:11:23
  * @version V1.0  
  */
-package com.xzit.ar.common.tag;
+package com.yd.ar.common.tag;
 
 import javax.servlet.jsp.JspException;
 import javax.servlet.jsp.JspWriter;

@@ -1,8 +1,8 @@
-package com.xzit.ar.common.util.info;
+package com.yd.ar.common.util.info;
 
-import com.xzit.ar.common.exception.UtilException;
-import com.xzit.ar.common.init.context.ARContext;
-import com.xzit.ar.common.mapper.dict.DictionaryDataMapper;
+import com.yd.ar.common.exception.UtilException;
+import com.yd.ar.common.init.context.ARContext;
+import com.yd.ar.common.mapper.dict.DictionaryDataMapper;
 
 
 public class InfoUtil {
