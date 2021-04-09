@@ -1,11 +1,4 @@
-/**
- * @Title: BaseController.java <br>
- * @Package com.yd.ar.common.base <br>
- * @Description: TODO <br>
- * @author Mr.Black <br>
- * @date 2015年12月21日 上午11:08:45 <br>
- * @version V1.0 <br>
- */
+
 package com.yd.ar.common.base;
 
 import java.io.UnsupportedEncodingException;

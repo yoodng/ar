@@ -1,11 +1,4 @@
-/**  
-* @Title: PageBean.java <br>
-* @Package com.yd.ar.common.page <br>
-* @Description: TODO <br>
-* @author Mr.Black <br>
-* @date 2015年12月16日 上午12:26:36 <br>
-* @version V1.0 <br>
-*/
+
 package com.yd.ar.common.page;
 
 import java.io.Serializable;

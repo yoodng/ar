@@ -1,11 +1,4 @@
-/**  
-* @Title: IOUtil.java <br>
-* @Package com.yd.ar.common.util <br>
-* @Description: TODO <br>
-* @author Mr.Black <br>
-* @date 2015年12月10日 下午8:23:32 <br>
-* @version V1.0 <br>
-*/
+
 package com.yd.ar.common.util;
 
 import java.io.*;

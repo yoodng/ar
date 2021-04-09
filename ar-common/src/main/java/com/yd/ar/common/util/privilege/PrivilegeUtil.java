@@ -1,11 +1,4 @@
-/**  
-* @Title: AuthorizationUtil.java <br>
-* @Package com.yd.ar.common.authorization.util <br>
-* @Description: TODO <br>
-* @author Mr.Black <br>
-* @date 2016年1月3日 下午3:00:38 <br>
-* @version V1.0 <br>
-*/
+
 package com.yd.ar.common.util.privilege;
 
 import java.util.ArrayList;

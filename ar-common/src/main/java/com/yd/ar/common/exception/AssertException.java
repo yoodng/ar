@@ -1,11 +1,4 @@
-/**  
-* @Title: AssertException.java <br>
-* @Package com.yd.ar.common.exception <br>
-* @Description: TODO <br>
-* @author Mr.Black <br>
-* @date 2015年12月21日 下午1:24:47 <br>
-* @version V1.0 <br>
-*/ 
+
 package com.yd.ar.common.exception;
 
 

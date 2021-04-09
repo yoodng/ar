@@ -1,11 +1,4 @@
-/**  
-* @Title: BaseEntity.java <br>
-* @Package com.yd.ar.common.base <br>
-* @Description: TODO <br>
-* @author Mr.Black <br>
-* @date 2015年12月21日 下午1:49:34 <br>
-* @version V1.0 <br>
-*/ 
+
 package com.yd.ar.common.base;
 
 import java.io.Serializable;

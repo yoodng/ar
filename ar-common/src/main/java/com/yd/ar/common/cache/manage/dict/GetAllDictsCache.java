@@ -1,11 +1,4 @@
-/**  
-* @Title: GetAllDictsCache.java <br>
-* @Package com.yd.ar.common.cache.dict <br>
-* @Description: TODO <br>
-* @author Mr.Black <br>
-* @date 2016年1月1日 下午9:08:35 <br>
-* @version V1.0 <br>
-*/
+
 package com.yd.ar.common.cache.manage.dict;
 
 import java.lang.annotation.ElementType;

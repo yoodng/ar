@@ -1,11 +1,4 @@
-/**  
- * @Title: RecruitUtil.java
- * @Package com.yd.ar.common.util.recruit
- * @Description: TODO
- * @author Mr.Black
- * @date 2016年2月3日 下午9:47:13
- * @version V1.0  
- */
+
 package com.yd.ar.common.util.recruit;
 
 import com.yd.ar.common.exception.UtilException;

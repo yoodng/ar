@@ -1,11 +1,4 @@
-/**  
-* @Title: LoginInterceptor.java <br>
-* @Package com.yd.ar.common.interceptor <br>
-* @Description: TODO <br>
-* @author Mr.Black <br>
-* @date 2016年1月2日 下午5:25:54 <br>
-* @version V1.0 <br>
-*/
+
 package com.yd.ar.common.interceptor;
 
 import java.util.Map;

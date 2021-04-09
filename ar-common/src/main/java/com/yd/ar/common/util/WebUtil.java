@@ -1,11 +1,4 @@
-/**  
-* @Title: WebUtil.java <br>
-* @Package com.yd.ar.common.util <br>
-* @Description: TODO <br>
-* @author Mr.Black <br>
-* @date 2015年12月21日 下午3:44:47 <br>
-* @version V1.0 <br>
-*/ 
+
 package com.yd.ar.common.util;
 
 import javax.servlet.http.HttpServletRequest;

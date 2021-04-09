@@ -1,11 +1,4 @@
-/**  
- * @Title: OriginProvider.java
- * @Package com.yd.ar.common.mapper.origin
- * @Description: TODO
- * @author Mr.Black
- * @date 2016年2月18日 下午2:06:27
- * @version V1.0  
- */
+
 package com.yd.ar.common.mapper.origin;
 
 

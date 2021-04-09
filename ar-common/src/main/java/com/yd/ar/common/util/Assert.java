@@ -1,11 +1,4 @@
-/**  
-* @Title: Assert.java <br>
-* @Package com.yd.ar.common.util <br>
-* @Description: TODO <br>
-* @author Mr.Black <br>
-* @date 2015年12月21日 下午1:22:24 <br>
-* @version V1.0 <br>
-*/ 
+
 package com.yd.ar.common.util;
 
 import java.util.Collection;

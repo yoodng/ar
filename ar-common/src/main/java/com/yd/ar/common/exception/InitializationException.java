@@ -1,11 +1,4 @@
-/**  
-* @Title: InitializationException.java <br>
-* @Package com.yd.ar.common.init <br>
-* @Description: TODO <br>
-* @author Mr.Black <br>
-* @date 2016年1月2日 下午8:28:45 <br>
-* @version V1.0 <br>
-*/
+
 package com.yd.ar.common.exception;
 
 public class InitializationException extends GlobalException {

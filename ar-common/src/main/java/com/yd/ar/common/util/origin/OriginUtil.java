@@ -1,11 +1,4 @@
-/**
- * @Title: OriginUtil.java
- * @Package com.yd.ar.common.util.origin
- * @Description: TODO
- * @author Mr.Black
- * @date 2016年2月18日 下午8:59:36
- * @version V1.0
- */
+
 package com.yd.ar.common.util.origin;
 
 import com.yd.ar.common.exception.UtilException;

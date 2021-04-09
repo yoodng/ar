@@ -1,11 +1,4 @@
-/**  
- * @Title: RecruitProvider.java
- * @Package com.yd.ar.common.mapper.recruit
- * @Description: TODO
- * @author Mr.Black
- * @date 2016年2月11日 上午11:40:53
- * @version V1.0  
- */
+
 package com.yd.ar.common.mapper.recruit;
 
 

@@ -1,11 +1,4 @@
-/**  
-* @Title: PageInterceptor.java <br>
-* @Package com.yd.ar.common.page <br>
-* @Description: TODO <br>
-* @author Mr.Black <br>
-* @date 2015年12月25日 下午11:08:13 <br>
-* @version V1.0 <br>
-*/
+
 package com.yd.ar.common.page;
 
 import java.lang.reflect.Field;

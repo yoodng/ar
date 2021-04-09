@@ -1,11 +1,4 @@
-/**  
-* @Title: CustomException.java <br>
-* @Package com.yd.ar.exception <br>
-* @Description: TODO <br>
-* @author Mr.Black <br>
-* @date 2015年12月10日 下午7:09:38 <br>
-* @version V1.0 <br>
-*/
+
 package com.yd.ar.common.exception;
 
 import java.text.MessageFormat;

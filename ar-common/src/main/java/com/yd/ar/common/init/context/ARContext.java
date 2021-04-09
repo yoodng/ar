@@ -1,11 +1,4 @@
-/**  
- * @Title: ARContext.java
- * @Package com.yd.ar.common.init.context
- * @Description: TODO
- * @author Mr.Black
- * @date 2016年2月3日 下午9:56:34
- * @version V1.0  
- */
+
 package com.yd.ar.common.init.context;
 
 import java.util.List;

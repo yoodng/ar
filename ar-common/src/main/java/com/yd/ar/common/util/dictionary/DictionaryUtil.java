@@ -1,11 +1,4 @@
-/**  
- * @Title: DictionaryUtil.java
- * @Package com.yd.ar.common.util.dictionary
- * @Description: TODO
- * @author Mr.Black
- * @date 2016年1月9日 上午2:35:31
- * @version V1.0  
- */
+
 package com.yd.ar.common.util.dictionary;
 
 import com.yd.ar.common.exception.UtilException;

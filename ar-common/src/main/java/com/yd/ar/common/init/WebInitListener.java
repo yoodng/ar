@@ -1,11 +1,4 @@
-/**  
-* @Title: WebInitListener.java <br>
-* @Package com.yd.ar.common.init <br>
-* @Description: TODO <br>
-* @author Mr.Black <br>
-* @date 2016年1月2日 下午8:50:26 <br>
-* @version V1.0 <br>
-*/
+
 package com.yd.ar.common.init;
 
 import javax.servlet.ServletContextEvent;

@@ -1,11 +1,4 @@
-/**
- * @Title: CommonUtil.java
- * @Package com.yd.ar.common.util
- * @Description: TODO
- * @author Mr.Black
- * @date 2015年12月10日 下午5:09:50
- * @version V1.0
- */
+
 package com.yd.ar.common.util;
 
 import java.io.File;

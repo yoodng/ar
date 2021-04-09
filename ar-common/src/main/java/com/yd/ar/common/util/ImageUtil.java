@@ -1,11 +1,4 @@
-/**
- * @Title: ImageUtil.java <br>
- * @Package com.yd.ar.common.util <br>
- * @Description: TODO <br>
- * @author Mr.Black <br>
- * @date 2015年12月10日 下午8:15:28 <br>
- * @version V1.0 <br>
- */
+
 package com.yd.ar.common.util;
 
 import java.awt.Graphics;

@@ -1,11 +1,4 @@
-/**  
-* @Title: GlobalExceptionCode.java <br>
-* @Package com.yd.ar.common.exception <br>
-* @Description: TODO <br>
-* @author Mr.Black <br>
-* @date 2015年12月10日 下午7:38:39 <br>
-* @version V1.0 <br>
-*/
+
 package com.yd.ar.common.exception;
 
 

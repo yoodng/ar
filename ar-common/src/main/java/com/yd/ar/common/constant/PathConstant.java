@@ -1,11 +1,4 @@
-/**  
- * @Title: PathConstant.java
- * @Package com.yd.ar.common.constant
- * @Description: TODO
- * @author Mr.Black
- * @date 2016年2月28日 下午8:24:55
- * @version V1.0  
- */
+
 package com.yd.ar.common.constant;
 
 

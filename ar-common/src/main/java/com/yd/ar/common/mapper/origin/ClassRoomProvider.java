@@ -1,11 +1,4 @@
-/**  
- * @Title: ClassRoomProvider.java
- * @Package com.yd.ar.common.mapper.origin
- * @Description: TODO
- * @author Mr.Black
- * @date 2016年2月20日 下午4:10:25
- * @version V1.0  
- */
+
 package com.yd.ar.common.mapper.origin;
 
 
