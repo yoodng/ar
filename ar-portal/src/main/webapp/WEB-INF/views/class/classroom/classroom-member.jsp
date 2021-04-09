@@ -27,7 +27,7 @@
 							<div class="people-item" style="text-align: center; min-height: 170px; max-height: 170px">
 								<a href="${pageContext.request.contextPath}/ta/show.action?userId=${member.userId}">
 									<div style="min-height: 125px;">
-										<img src="${member.imgPath}" class="img-responsive center-block"
+										<img src="${pageContext.request.contextPath}/${member.imgPath}" class="img-responsive center-block"
 											 style="max-height: 125px;">
 									</div>
 										${member.trueName}

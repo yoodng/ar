@@ -11,7 +11,8 @@
                 <c:if test="${hot.thumbImage != null && hot.thumbImage !=''}">
                     <a class="pull-left col-sm-4" style="max-height: 40px;"
                        href="news/detail.action?infoId=${hot.infoId}">
-                        <img class="img-responsive" src="${hot.thumbImage}"></a>
+                        <%--<img class="img-responsive" src="${hot.thumbImage}"></a>--%>
+                        <img class="img-responsive" src="${pageContext.request.contextPath}/assets/images/logo/title-logo.jpg"></a>
                 </c:if>
                 <div class="media-body" style="max-height: 40px;">
                     <a class="email-summary" href="${pageContext.request.contextPath}/news/detail.action?infoId=${hot.infoId}">
