@@ -65,9 +65,9 @@ public class StartupServlet extends DispatcherServlet {
 			 */
 			InfoUtil.initForum();
 
-			System.out.println("-------------------- 信电校友录 启动成功  --------------------");
+			System.out.println("-------------------- 理工校友录 启动成功  --------------------");
 		} catch (Exception e) {
-			System.out.println("-------------------- 信电校友录 启动失败  --------------------");
+			System.out.println("-------------------- 理工校友录 启动失败  --------------------");
 			e.printStackTrace();
 		}
 	}
