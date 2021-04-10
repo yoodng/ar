@@ -1,11 +1,4 @@
-/**  
- * @Title: LoginController.java
- * @Package com.yd.ar.portal.controller
- * @Description: TODO
- * @author Mr.Black
- * @date 2016年1月15日 下午6:23:27
- * @version V1.0  
- */
+
 package com.yd.ar.portal.controller;
 
 import java.util.HashMap;
@@ -44,15 +37,16 @@ public class LoginController extends BaseController {
 
 	/**
 	 * @Description: TODO 登录处理<br>
-	 * @author Mr.Black <br>
 	 */
 	@RequestMapping(value = "/validate", method = RequestMethod.POST)
 	public ModelAndView validate(Model model, HttpSession session, @RequestParam("araccount") String account,
 			@RequestParam("arpassword") String password, String queryString) throws ServiceException, UtilException {
+		System.out.println("gioagiaogioaggo");
 		Map<String, Object> user = new HashMap<String, Object>();
 		// md5 对密码加密
 		password = CommonUtil.md5(password);
 		System.out.println(password);
+
 		// 登录校验
 		user = loginService.validateUser(account, password);
 		if (user != null) {
@@ -124,8 +118,6 @@ public class LoginController extends BaseController {
 
 	/**
 	 * @Description: TODO 登出<br>
-	 * @author Mr.Black <br>
-	 * @date 2015年12月23日 下午12:51:01 <br>
 	 */
 	@RequestMapping(value = "/logout", method = RequestMethod.GET)
 	public String logout(HttpSession session) {
