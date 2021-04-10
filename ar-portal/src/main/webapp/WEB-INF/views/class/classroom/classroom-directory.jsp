@@ -32,7 +32,7 @@
                         <div class="people-item">
                             <div class="media">
                                 <a href="${pageContext.request.contextPath}/ta/show.action?userId=${directory.userId}"
-                                   class="pull-left"> <img src="${directory.imgPath}" class="img-responsive thumbnail media-object">
+                                   class="pull-left"> <img src="${pageContext.request.contextPath}/${directory.imgPath}" class="img-responsive thumbnail media-object">
                                 </a>
                                 <div class="media-body">
                                     <h4 class="person-name">${directory.trueName}</h4>
