@@ -39,7 +39,7 @@
 
                         <br/>
                         <c:if test="${post.thumbImage != null && post.thumbImage != ''}">
-                            <div class="blog-img"><img src="${post.thumbImage}" class="img-responsive" alt=""/></div>
+                            <div class="blog-img"><img src="${pageContext.request.contextPath}/${post.thumbImage}" class="img-responsive" alt=""/></div>
                             <div class="mb10"></div>
                         </c:if>
 
@@ -70,7 +70,7 @@
                 </ol>
                 <div class="media">
                     <a class="pull-left" href="${pageContext.request.contextPath}/ta/show.action?userId=${post.userId}">
-                        <img class="thumbnail img-responsive center-block" src="${post.portrait}"
+                        <img class="thumbnail img-responsive center-block" src="${pageContext.request.contextPath}/${post.portrait}"
                              style="max-width: 65px"/>
                     </a>
                     <div class="media-body event-body">

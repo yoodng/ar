@@ -25,16 +25,16 @@
     </li>
 
     <!-- 招聘管理 -->
-    <li class="admin-parent" id="bar-job">
-        <a class="am-cf" href="javascript:;" data-am-collapse="{target: '#job-manage'}">
-            <span class="am-icon-suitcase"></span> &nbsp;职业招聘 <span class="am-icon-angle-right am-fr am-margin-right"></span>
-        </a>
-        <ul class="am-list am-collapse admin-sidebar-sub" id="job-manage">
-            <li><a href="${pageContext.request.contextPath}/job.action"><span class="am-icon-th"></span> 招聘信息 </a></li>
-            <li><a href="${pageContext.request.contextPath}/job/createJob.action"><span class="am-icon-plus"></span> 发布招聘 </a></li>
-            <li><a href="${pageContext.request.contextPath}/job/createJob.action"><span class="am-icon-institution"></span> 招聘单位 </a></li>
-        </ul>
-    </li>
+    <%--<li class="admin-parent" id="bar-job">--%>
+        <%--<a class="am-cf" href="javascript:;" data-am-collapse="{target: '#job-manage'}">--%>
+            <%--<span class="am-icon-suitcase"></span> &nbsp;职业招聘 <span class="am-icon-angle-right am-fr am-margin-right"></span>--%>
+        <%--</a>--%>
+        <%--<ul class="am-list am-collapse admin-sidebar-sub" id="job-manage">--%>
+            <%--<li><a href="${pageContext.request.contextPath}/job.action"><span class="am-icon-th"></span> 招聘信息 </a></li>--%>
+            <%--<li><a href="${pageContext.request.contextPath}/job/createJob.action"><span class="am-icon-plus"></span> 发布招聘 </a></li>--%>
+            <%--<li><a href="${pageContext.request.contextPath}/job/createJob.action"><span class="am-icon-institution"></span> 招聘单位 </a></li>--%>
+        <%--</ul>--%>
+    <%--</li>--%>
 
     <!-- 用户管理 -->
     <li class="admin-parent" id="bar-user">

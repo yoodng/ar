@@ -133,22 +133,22 @@
 
     <!--col-md-4   3-->
     <div class="col-md-3">
-        <div class="panel panel-default">
-            <div class="panel-heading" style="background-color: #D8DBDE">
-                <h4 class="panel-title">热门招聘</h4>
-            </div>
-            <div class="panel-body padding0 about-list">
-                <ul>
-                    <c:forEach items="${recruits}" var="recruit">
-                        <li>
-                            <a href="${pageContext.request.contextPath}/recruit/detailRecruit.action?recruitId=${recruit.recruitId}">
-                                <ar:sub value="${recruit.title}" length="15"></ar:sub>
-                            </a>
-                        </li>
-                    </c:forEach>
-                </ul>
-            </div>
-        </div>
+        <%--<div class="panel panel-default">--%>
+            <%--<div class="panel-heading" style="background-color: #D8DBDE">--%>
+                <%--<h4 class="panel-title">热门招聘</h4>--%>
+            <%--</div>--%>
+            <%--<div class="panel-body padding0 about-list">--%>
+                <%--<ul>--%>
+                    <%--<c:forEach items="${recruits}" var="recruit">--%>
+                        <%--<li>--%>
+                            <%--<a href="${pageContext.request.contextPath}/recruit/detailRecruit.action?recruitId=${recruit.recruitId}">--%>
+                                <%--<ar:sub value="${recruit.title}" length="15"></ar:sub>--%>
+                            <%--</a>--%>
+                        <%--</li>--%>
+                    <%--</c:forEach>--%>
+                <%--</ul>--%>
+            <%--</div>--%>
+        <%--</div>--%>
 
         <br>
         <h3 class="subtitle">最新加入校友</h3>

@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
          pageEncoding="UTF-8" %>
 <%--<img src="assets/images/photos/profile-2.png" class="thumbnail img-responsive" />--%>
-<img src="${SESSION_USER.portrait}" class="thumbnail img-responsive"/>
+<img src="${pageContext.request.contextPath}/${SESSION_USER.portrait}" class="thumbnail img-responsive"/>
 <h1 class="subtitle">基本信息</h1>
 <ul class="nav nav-pills nav-stacked nav-email ul-h">
     <li id="my-home"><a href="${pageContext.request.contextPath}/my.action"><i
@@ -16,7 +16,7 @@
 <ul class="nav nav-pills nav-stacked nav-email">
     <li id="my-class"><a href="${pageContext.request.contextPath}/my/class.action"><i class="fa fa-mortar-board"></i>我的班级</a></li>
     <li id="my-forum"><a href="${pageContext.request.contextPath}/my/forum.action"><i class="fa fa-group"></i>我的论坛</a></li>
-    <li id="my-recruit"><a href="${pageContext.request.contextPath}/my/recruit.action"><i class="fa fa-bookmark"></i>我的招聘</a></li>
+    <%--<li id="my-recruit"><a href="${pageContext.request.contextPath}/my/recruit.action"><i class="fa fa-bookmark"></i>我的招聘</a></li>--%>
 </ul>
 
 <%--<div class="mb10"></div>--%>
