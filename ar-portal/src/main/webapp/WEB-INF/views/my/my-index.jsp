@@ -117,7 +117,7 @@
 										<td>
 											<div class="media">
 												<a href="#" class="pull-left"> <img alt=""
-													src="${SESSION_USER.portrait}"
+													src="${pageContext.request.contextPath}/${SESSION_USER.portrait}"
 													class="media-object">
 												</a>
 												<div class="media-body">

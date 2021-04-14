@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
          pageEncoding="UTF-8" %>
 <%--<img src="assets/images/photos/profile-2.png" class="thumbnail img-responsive" />--%>
-<img src="${SESSION_USER.portrait}" class="thumbnail img-responsive"/>
+<img src="${pageContext.request.contextPath}/${SESSION_USER.portrait}" class="thumbnail img-responsive"/>
 <h1 class="subtitle">基本信息</h1>
 <ul class="nav nav-pills nav-stacked nav-email ul-h">
     <li id="my-home"><a href="${pageContext.request.contextPath}/my.action"><i

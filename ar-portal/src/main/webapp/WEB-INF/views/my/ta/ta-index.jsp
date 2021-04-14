@@ -43,9 +43,9 @@
 
             <h5 class="subtitle">地址</h5>
             <address>
-                云龙区 徐州工程学院中心校区<br>
-                中国 江苏省 徐州市<br>
-                <abbr title="电话">电话:</abbr> 18796253637
+                汉台区 陕西理工大学南校区<br>
+                中国 陕西省 西安市<br>
+                <abbr title="电话">电话:</abbr> 19191919191
             </address>
 
         </div><!-- col-sm-3 -->
@@ -53,8 +53,8 @@
 
             <div class="profile-header">
                 <h2 class="profile-name">${ta.trueName}</h2>
-                <div class="profile-location"><i class="fa fa-map-marker"></i> 江苏省 徐州市</div>
-                <div class="profile-position"><i class="fa fa-briefcase"></i> 软件工程师 任职于 <a href="">东软.</a></div>
+                <div class="profile-location"><i class="fa fa-map-marker"></i> 陕西省 徐州市</div>
+                <div class="profile-position"><i class="fa fa-briefcase"></i> 软件工程师 任职于 <a href="">SKY公司</a></div>
                 
                 <div class="mb20"></div>
 

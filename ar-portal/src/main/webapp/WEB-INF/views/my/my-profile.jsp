@@ -19,22 +19,22 @@
 
 			<h5 class="subtitle">关于 TA</h5>
 			<p class="mb30">
-				作为一名成熟的男性，渴望被爱... <a href="">查看更多</a>
+				窗前明月光、疑是地上霜 <a href="">查看更多</a>
 			</p>
 
 			<h5 class="subtitle">联系</h5>
 			<ul class="profile-social-list">
-				<li><i class="fa fa-qq"></i> <a href="javascript:;">QQ: 1075512174</a></li>
-				<li><i class="fa fa-wechat"></i> <a href="javascript:;">微信: 董学长</a></li>
-				<li><i class="fa fa-weibo"></i> <a href="javascript:;">微博: 家里有小杰</a></li>
+				<li><i class="fa fa-qq"></i> <a href="javascript:;">QQ: 19191919</a></li>
+				<li><i class="fa fa-wechat"></i> <a href="javascript:;">微信: Wechat</a></li>
+				<li><i class="fa fa-weibo"></i> <a href="javascript:;">微博: weiboo</a></li>
 			</ul>
 
 			<div class="mb30"></div>
 
 			<h5 class="subtitle">地址</h5>
 			<address>
-				江苏省 徐州市 沛县 龙固镇 龙东村 238号<br> <abbr title="Phone">电话:</abbr>
-				18796221163
+				陕西省 汉中市 汉台区 238号<br> <abbr title="Phone">电话:</abbr>
+				1091919919
 			</address>
 
 		</div>
@@ -42,13 +42,13 @@
 		<div class="col-sm-9">
 
 			<div class="profile-header">
-				<h3 class="profile-name">董亮亮</h3>
+				<h3 class="profile-name">张三</h3>
 				<div class="profile-location">
-					<i class="fa fa-map-marker"></i> 徐州, 江苏, 中国
+					<i class="fa fa-map-marker"></i> 西安, 陕西, 中国
 				</div>
 				<div class="profile-position">
-					<i class="fa fa-briefcase"></i> 软件开发猿 工作于 <a href="javascript:;">东软,
-						南京.</a>
+					<i class="fa fa-briefcase"></i> 软件开发 工作于 <a href="javascript:;">SKY公司,
+						西安.</a>
 				</div>
 
 				<div class="mb20"></div>
