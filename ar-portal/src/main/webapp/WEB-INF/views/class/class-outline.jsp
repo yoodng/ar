@@ -38,7 +38,7 @@
 			<c:forEach items="${latestMembers}" var="member">
 				<li><div class="media">
 						<a class="pull-left col-sm-4" style="max-height: 40px;" href="${pageContext.request.contextPath}/ta/show.action?userId=${member.userId}">
-							<img class="thumbnail img-responsive" src="${member.imgPath}"></a>
+							<img class="thumbnail img-responsive" src="${pageContext.request.contextPath}/${member.imgPath}"></a>
 						<div class="media-body" style="max-height: 40px;">
 							<a class="email-summary" href="${pageContext.request.contextPath}/ta/show.action?userId=">${member.trueName}</a>
 							<small class="text-muted"><fmt:formatDate	value="${member.createTime}" pattern="yyyy-MM-dd HH:mm" />&nbsp; 加入</small>
