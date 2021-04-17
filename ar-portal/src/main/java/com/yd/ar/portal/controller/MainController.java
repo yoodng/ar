@@ -16,7 +16,7 @@ import com.yd.ar.common.util.IOUtil;
 import com.yd.ar.portal.service.classes.ClassService;
 import com.yd.ar.portal.service.forum.PostService;
 import com.yd.ar.portal.service.information.InformationService;
-import com.yd.ar.portal.service.recruit.RecruitService;
+
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -39,8 +39,7 @@ public class MainController extends BaseController {
     @Resource
     private PostService postService;
 
-    @Resource
-    private RecruitService recruitService;
+
 
     @Resource
     private InformationService informationService;
@@ -64,9 +63,6 @@ public class MainController extends BaseController {
         // 热门话题
         model.addAttribute("posts",
                 postService.queryPosts(new Page<Map<String, Object>>(1, 10), ""));
-        // 热门招聘
-        model.addAttribute("recruits",
-                recruitService.queryRecruit(new Page<Map<String, Object>>(1, 8), ""));
         // 近期校友
         model.addAttribute("latestMembers", classService.latestMembers(5));
 

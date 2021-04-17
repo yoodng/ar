@@ -60,16 +60,7 @@ public abstract class BaseController {
     private static String errorPage = "error/page500";
 
     private static Logger logger = new Logger(BaseController.class);
-
-    /**
-     * @param @throws AssertException <br>
-     * @return String <br>
-     * @throws <br>
-     * @Title: getParameter <br>
-     * @Description: TODO 获取参数<br>
-     * @author Mr.Black <br>
-     * @date 2015年12月21日 下午1:28:56 <br>
-     */
+    
     protected String getParameter(String param, String errMsg) throws AssertException {
         String value = getRequest().getParameter(param);
         if (errMsg != null) {
@@ -78,13 +69,7 @@ public abstract class BaseController {
         return StringUtils.trim(value);
     }
 
-    /**
-     * @throws <br>
-     * @Title: getParameter <br>
-     * @Description: TODO 获取参数<br>
-     * @author Mr.Black <br>
-     * @date 2015年12月21日 下午1:11:27 <br>
-     */
+ 
     protected String getParameter(String param) {
         String value = getRequest().getParameter(param);
         if (CommonUtil.isNotEmpty(value)) {
@@ -97,65 +82,36 @@ public abstract class BaseController {
         return StringUtils.trim(value);
     }
 
-    /**
-     * @return Long <br>
-     * @throws <br>
-     * @Title: getLongParameter <br>
-     * @Description: TODO getLongParameter<br>
-     * @author Mr.Black <br>
-     * @date 2015年12月21日 下午1:30:55 <br>
-     */
+  
     protected Long getLongParameter(String param, String errMsg) throws AssertException {
         String value = getParameter(param, errMsg);
         return CommonUtil.isEmpty(value) ? null : Long.valueOf(value);
     }
 
-    /**
-     * @throws <br>
-     * @Title: getLongParameter <br>
-     * @Description: TODO getLongParameter<br>
-     * @author Mr.Black <br>
-     * @date 2015年12月21日 下午1:31:34 <br>
-     */
+  
     protected Long getLongParameter(String param) {
         String value = getParameter(param);
         return CommonUtil.isEmpty(value) ? null : Long.valueOf(value);
     }
 
-    /**
-     * @return Integer <br>
-     * @Description: TODO getIntegerParameter <br>
-     * @author Mr.Black <br>
-     * @date 2015年12月21日 下午1:32:44 <br>
-     */
+   
     protected Integer getIntegerParameter(String param, String errMsg) throws AssertException {
         String value = getParameter(param, errMsg);
         return CommonUtil.isEmpty(value) ? null : Integer.valueOf(value);
     }
 
-    /**
-     * @return Integer <br>
-     * @Description: TODO getIntegerParameter<br>
-     * @author Mr.Black <br>
-     * @date 2015年12月21日 下午1:33:23 <br>
-     */
+  
     protected Integer getIntegerParameter(String param) {
         String value = getParameter(param);
         return (CommonUtil.isEmpty(value) || value.equals("undefined")) ? null : Integer.valueOf(value);
     }
 
-    /**
-     * @Title: getQueryStr
-     * @Description: TODO 获取查询条件字符串
-     */
+
     protected String getQueryStr() {
         return this.getParameter("queryStr");
     }
 
-    /**
-     * @Title: setQuery
-     * @Description: TODO 传递查询条件字符串
-     */
+   
     protected void setQuery() {
         this.getRequest().setAttribute("queryStr", this.getParameter("queryStr"));
     }
@@ -196,13 +152,7 @@ public abstract class BaseController {
         this.getRequest().setAttribute("selectStr", this.getParameter("selectStr"));
     }
 
-    /**
-     * @param @return <br>
-     * @return int <br>
-     * @Description: TODO getPageIndex<br>
-     * @author Mr.Black <br>
-     * @date 2015年12月21日 下午1:34:13 <br>
-     */
+   
     protected int getPageIndex() {
         Object temp = getIntegerParameter("pageIndex");
         if (temp == null || temp.equals("undefined")) {
@@ -212,13 +162,7 @@ public abstract class BaseController {
         return pageIndex < 1 ? 1 : pageIndex;
     }
 
-    /**
-     * @param @return <br>
-     * @return int <br>
-     * @Description: TODO getPageSize <br>
-     * @author Mr.Black <br>
-     * @date 2015年12月21日 下午1:34:22 <br>
-     */
+    
     protected int getPageSize() {
         Object temp = getIntegerParameter("pageSize");
         if (temp == null || temp.equals("undefined")) {
@@ -227,13 +171,7 @@ public abstract class BaseController {
         Integer pageSize = Integer.parseInt(temp.toString());
         return (pageSize < MIN_PAGE_SIZE || pageSize > MAX_PAGE_SIZE) ? DEFAULT_PAGE_SIZE : pageSize;
     }
-
-    /**
-     * @return ModelAndView <br>
-     * @Description: TODO 页面跳转成功处理<br>
-     * @author Mr.Black <br>
-     * @date 2015年12月23日 下午9:07:08 <br>
-     */
+    
     protected ModelAndView success(String message, String redirectUrl, Map<String, String> param) {
         ModelMap map = new ModelMap();
         map.put("success", true);
@@ -243,12 +181,7 @@ public abstract class BaseController {
         return new ModelAndView(successPage, map);
     }
 
-    /**
-     * @return ModelAndView <br>
-     * @Description: TODO 页面跳转失败处理<br>
-     * @author Mr.Black <br>
-     * @date 2015年12月23日 下午9:06:44 <br>
-     */
+ 
     protected ModelAndView fail(String errMessage, String redirectUrl, Map<String, String> param) {
         ModelMap map = new ModelMap();
         map.put("errMsg", errMessage);
@@ -261,13 +194,7 @@ public abstract class BaseController {
         return new ModelAndView(errorPage, map);
     }
 
-    /**
-     * @param @return <br>
-     * @return HttpServletRequest <br>
-     * @Description: TODO 获取request<br>
-     * @author Mr.Black <br>
-     * @date 2015年12月21日 下午1:36:56 <br>
-     */
+  
     protected HttpServletRequest getRequest() {
         RequestAttributes requestAttr = RequestContextHolder.getRequestAttributes();
         return ((ServletRequestAttributes) requestAttr).getRequest();
@@ -310,7 +237,7 @@ public abstract class BaseController {
      * @Description: TODO 向页面返回操作结果信息 <br>
      * message 操作结果信息
      * @author Mr.Black <br>
-     * @date 2015年12月27日 下午8:51:09 <br>
+     * @date 2021年3月27日 下午8:51:09 <br>
      */
     protected void setMessage(Model model, String message) {
         if (model != null) {

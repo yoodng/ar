@@ -1,11 +1,4 @@
-/**  
-* @Title: DictController.java <br>
-* @Package com.yd.ar.manage.controller.dict <br>
-* @Description: TODO <br>
-* @author Mr.Black <br>
-* @date 2015年12月25日 下午9:15:37 <br>
-* @version V1.0 <br>
-*/
+
 package com.yd.ar.manage.controller.dict;
 
 import java.util.List;

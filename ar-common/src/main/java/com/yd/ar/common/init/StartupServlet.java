@@ -12,7 +12,7 @@ import com.yd.ar.common.init.context.ARContext;
 import com.yd.ar.common.mapper.dict.DictionaryDataMapper;
 import com.yd.ar.common.util.dictionary.DictionaryUtil;
 import com.yd.ar.common.util.privilege.PrivilegeUtil;
-import com.yd.ar.common.util.recruit.RecruitUtil;
+
 
 
 public class StartupServlet extends DispatcherServlet {
@@ -49,13 +49,7 @@ public class StartupServlet extends DispatcherServlet {
 			 * 加载数据字典
 			 */
 			DictionaryUtil.loadDictionary();
-
-			/**
-			 * 职业招聘初始化
-			 */
-			RecruitUtil.initRecruit();
-			
-			/**
+						/**
 			 * 班级录初始化
 			 */
 			OriginUtil.initClass();

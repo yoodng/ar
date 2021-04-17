@@ -64,22 +64,7 @@
             </div>
         </div>
 
-        <div class="panel panel-default">
-            <div class="panel-heading" style="background-color: #D8DBDE">
-                <h4 class="panel-title">快速导航</h4>
-            </div>
-            <div class="panel-body text-center nopadding">
-                <br>
-                <a href="${pageContext.request.contextPath}/recruit/addRecruit.action" class="btn btn-warning-alt"> 发布招聘 </a>
-                <a href="${pageContext.request.contextPath}/post/add.action" class="btn btn-warning-alt"> 发布新帖 </a>
-                <a class="btn btn-warning-alt"> 我的简历 </a>
-                <hr>
-                <a href="${pageContext.request.contextPath}/my/class.action" class="btn btn-info-alt"> 我的班級 </a>
-                <a href="${pageContext.request.contextPath}/my/recruit.action" class="btn btn-info-alt"> 我的招聘 </a>
-                <a href="${pageContext.request.contextPath}/my/resume.action" class="btn btn-info-alt"> 我的简历 </a>
-                <hr>
-            </div>
-        </div>
+
     </div>
 
     <!--col-md-4    2-->

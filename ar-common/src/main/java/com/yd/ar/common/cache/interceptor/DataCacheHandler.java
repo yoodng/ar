@@ -51,7 +51,7 @@ public class DataCacheHandler {
 	/**
 	 * @Description: TODO 将查询结果缓存<br>
 	 * @author Mr.Black <br>
-	 * @date 2015年12月30日 下午1:21:21 <br>
+	 * @date 2021年3月27日下午1:21:21 <br>
 	 */
 	@SuppressWarnings("deprecation")
 	public Object putResultToCache(ProceedingJoinPoint pjp) throws Throwable {
@@ -96,7 +96,7 @@ public class DataCacheHandler {
 	 *            <br>
 	 * @return String <br>
 	 * @author Mr.Black <br>
-	 * @date 2015年12月30日 下午1:22:11 <br>
+	 * @date 2021年3月27日下午1:22:11 <br>
 	 */
 	private String getCacheKey(String targetName, String methodName, Object[] arguments) {
 		StringBuffer sb = new StringBuffer();
