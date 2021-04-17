@@ -15,7 +15,7 @@
     <!-- 班级管理 -->
     <li class="admin-parent" id="bar-origin">
         <a class="am-cf" href="javascript:void(0)" data-am-collapse="{target: '#origin-manage'}">
-            <i class="am-icon-graduation-cap"></i> 组织及组织管理
+            <i class="am-icon-graduation-cap"></i> 班级及组织管理
             <i class="am-icon-angle-right am-fr am-margin-right"></i>
         </a>
         <ul class="am-list am-collapse admin-sidebar-sub" id="origin-manage">
