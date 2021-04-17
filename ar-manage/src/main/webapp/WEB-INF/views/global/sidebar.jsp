@@ -24,17 +24,6 @@
         </ul>
     </li>
 
-    <!-- 招聘管理 -->
-    <%--<li class="admin-parent" id="bar-job">--%>
-        <%--<a class="am-cf" href="javascript:;" data-am-collapse="{target: '#job-manage'}">--%>
-            <%--<span class="am-icon-suitcase"></span> &nbsp;职业招聘 <span class="am-icon-angle-right am-fr am-margin-right"></span>--%>
-        <%--</a>--%>
-        <%--<ul class="am-list am-collapse admin-sidebar-sub" id="job-manage">--%>
-            <%--<li><a href="${pageContext.request.contextPath}/job.action"><span class="am-icon-th"></span> 招聘信息 </a></li>--%>
-            <%--<li><a href="${pageContext.request.contextPath}/job/createJob.action"><span class="am-icon-plus"></span> 发布招聘 </a></li>--%>
-            <%--<li><a href="${pageContext.request.contextPath}/job/createJob.action"><span class="am-icon-institution"></span> 招聘单位 </a></li>--%>
-        <%--</ul>--%>
-    <%--</li>--%>
 
     <!-- 用户管理 -->
     <li class="admin-parent" id="bar-user">
@@ -46,30 +35,7 @@
         </ul>
     </li>
 
-    <!-- 权限管理 -->
-    <li class="admin-parent" id="bar-right">
-        <a class="am-cf" href="javascript:;" data-am-collapse="{target: '#right-manage'}">
-            <i class="am-icon-eye"></i> 权限管理
-            <i class="am-icon-angle-right am-fr am-margin-right"></i>
-        </a>
-        <ul class="am-list am-collapse admin-sidebar-sub" id="right-manage">
-            <li><a href="${pageContext.request.contextPath}/right/indexRight.action" class="am-cf"><i class="am-icon-search-plus"></i>所有权限</a></li>
-            <li><a href="${pageContext.request.contextPath}/role.action" class="am-cf"><i class="am-icon-search-plus"></i>角色设置</a></li>
-            <li><a href="#" class="am-cf"><i class="am-icon-puzzle-piece"></i>权限设置</a></li>
-        </ul>
-    </li>
 
-    <!-- 系统设置 -->
-    <li class="admin-parent" id="bar-system">
-        <a class="am-cf" href="javascript:;" data-am-collapse="{target: '#system-setting'}">
-            <i class="am-icon-gears"></i> 系统设置
-            <i class="am-icon-angle-right am-fr am-margin-right"></i>
-        </a>
-        <ul class="am-list am-collapse admin-sidebar-sub" id="system-setting">
-            <li><a href="${pageContext.request.contextPath}/dict/indexDict.action"><i class="am-icon-search-plus"></i>字典</a></li>
-            <li><a href="${pageContext.request.contextPath}/dictData/indexDictData.action"><i class="am-icon-search-plus"></i>字典数据</a></li>
-        </ul>
-    </li>
     <!-- ... -->
     <li><a href="${pageContext.request.contextPath}/login/logout.action"><span class="am-icon-sign-out"></span> 注销</a></li>
 </ul>

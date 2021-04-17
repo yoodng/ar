@@ -15,11 +15,7 @@
             <span class="am-icon-btn am-icon-briefcase"></span><br/>发布新闻
         </a>
     </li>
-    <%--<li>--%>
-        <%--<a href="${pageContext.request.contextPath}/job/createJob.action" class="am-text-success">--%>
-            <%--<span class="am-icon-btn am-icon-file-text"></span><br/>发布招聘--%>
-        <%--</a>--%>
-    <%--</li>--%>
+
     <li>
         <a href="${pageContext.request.contextPath}/origin.action" class="am-text-danger">
             <span class="am-icon-btn am-icon-recycle"></span><br/>组织管理

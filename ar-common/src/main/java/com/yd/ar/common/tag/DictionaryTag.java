@@ -34,52 +34,52 @@ public class DictionaryTag extends BodyTagSupport {
 	public DictionaryTag() {
 		super();
 	}
-
-	@Override
-	public int doStartTag() throws JspException {
-		JspWriter out = this.pageContext.getOut();
-		try {
-			// 校验参数
-			if (CommonUtil.isEmpty(dictdata) && CommonUtil.isEmpty(dict)) {
-				out.print("*");
-				return SKIP_BODY;
-			} else if (CommonUtil.isEmpty(dictdata)) {
-				// 查阅数据字典
-				String dictName = null;
-				for (Map<String, Object> curDict : ARContext.dictionary) {
-					if (curDict.get("dictValue").equals(dict)) {
-						dictName = (String) curDict.get("dictName");
-						break;
-					}
-				}
-				// 校验查询结果
-				if (dictName == null) {
-					out.print("*");
-				} else {
-					out.print(dictName);
-				}
-			} else {
-				// 查阅数据字典
-				String dictdataName = null;
-				for (Map<String, Object> curDict : ARContext.dictionary) {
-					if (curDict.get("dictValue").equals(dict) && curDict.get("dictdataValue").equals(dictdata)) {
-						dictdataName = (String) curDict.get("dictdataName");
-						break;
-					}
-				}
-				// 校验查询结果
-				if (dictdataName == null) {
-					out.print("*");
-				} else {
-					out.print(dictdataName);
-				}
-			}
-
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-		return EVAL_BODY_INCLUDE;
-	}
+//
+//	@Override
+//	public int doStartTag() throws JspException {
+//		JspWriter out = this.pageContext.getOut();
+//		try {
+//			// 校验参数
+//			if (CommonUtil.isEmpty(dictdata) && CommonUtil.isEmpty(dict)) {
+//				out.print("*");
+//				return SKIP_BODY;
+//			} else if (CommonUtil.isEmpty(dictdata)) {
+//				// 查阅数据字典
+//				String dictName = null;
+//				for (Map<String, Object> curDict : ARContext.dictionary) {
+//					if (curDict.get("dictValue").equals(dict)) {
+//						dictName = (String) curDict.get("dictName");
+//						break;
+//					}
+//				}
+//				// 校验查询结果
+//				if (dictName == null) {
+//					out.print("*");
+//				} else {
+//					out.print(dictName);
+//				}
+//			} else {
+//				// 查阅数据字典
+//				String dictdataName = null;
+//				for (Map<String, Object> curDict : ARContext.dictionary) {
+//					if (curDict.get("dictValue").equals(dict) && curDict.get("dictdataValue").equals(dictdata)) {
+//						dictdataName = (String) curDict.get("dictdataName");
+//						break;
+//					}
+//				}
+//				// 校验查询结果
+//				if (dictdataName == null) {
+//					out.print("*");
+//				} else {
+//					out.print(dictdataName);
+//				}
+//			}
+//
+//		} catch (Exception e) {
+//			e.printStackTrace();
+//		}
+//		return EVAL_BODY_INCLUDE;
+//	}
 
 	@Override
 	public int doEndTag() throws JspException {

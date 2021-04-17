@@ -21,8 +21,6 @@
                     <li><a href="${pageContext.request.contextPath}/login/logout.action"><span class="am-icon-power-off"></span> 退出</a></li>
                 </ul>
             </li>
-            <li><a href="javascript:void(0)" id="admin-fullscreen"><span
-                    class="am-icon-arrows-alt"></span> <span class="admin-fullText">开启全屏</span></a></li>
         </ul>
     </div>
 </header>

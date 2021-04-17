@@ -40,18 +40,18 @@ public class StartupServlet extends DispatcherServlet {
 			 */
 			ARContext.dataMapper = ARContext.applicationContext.getBean(DictionaryDataMapper.class);
 			
-			/**
-			 * 加载权限
-			 */
-			PrivilegeUtil.loadAllRights();
+//			/**
+//			 * 加载权限
+//			 */
+//			PrivilegeUtil.loadAllRights();
 
-			/**
-			 * 加载数据字典
-			 */
-			DictionaryUtil.loadDictionary();
-						/**
-			 * 班级录初始化
-			 */
+//			/**
+//			 * 加载数据字典
+//			 */
+//			DictionaryUtil.loadDictionary();
+////						/**
+//			 * 班级录初始化
+//			 */
 			OriginUtil.initClass();
 
 			/**
