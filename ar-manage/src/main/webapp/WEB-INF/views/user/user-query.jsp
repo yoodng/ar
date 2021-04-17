@@ -90,7 +90,7 @@
                         <td><input type="checkbox" value="${user.userId}"/></td>
                         <td>
                             <a href="job/detailJob.action?recruitId=${user.userId}" target="blank">
-                                    ${user.trueName}
+                                    ${user.account}
                             </a>
                             <c:if test="${user.isAdmin == 1}">
                                 &nbsp;<span class="am-badge am-badge-success">管理员</span>

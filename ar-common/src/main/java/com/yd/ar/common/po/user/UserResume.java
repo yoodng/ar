@@ -4,7 +4,7 @@ import java.util.Date;
 
 import com.yd.ar.common.base.BaseEntity;
 
-public class UserResume extends BaseEntity {
+public class UserResume extends BaseEntity{
 	/**
 	 * @Fields serialVersionUID : TODO
 	 */

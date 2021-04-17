@@ -4,7 +4,7 @@
 <html>
 <head>
     <%@ include file="/WEB-INF/views/global/base-path.jsp" %>
-    <title>用户管理-后台管理</title>
+    <title>校友管理-后台管理</title>
     <%@ include file="/WEB-INF/views/global/manage-meta.jsp" %>
     <%@ include file="/WEB-INF/views/global/common-css.jsp" %>
 </head>

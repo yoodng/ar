@@ -8,14 +8,14 @@
     <!-- 新闻中心 -->
     <li class="admin-parent" id="bar-info">
         <a class="am-cf" href="${pageContext.request.contextPath}/info.action">
-            <span class="am-icon-newspaper-o"></span> 信息中心
+            <span class="am-icon-newspaper-o"></span> 论坛信息管理
         </a>
     </li>
 
     <!-- 班级管理 -->
     <li class="admin-parent" id="bar-origin">
         <a class="am-cf" href="javascript:void(0)" data-am-collapse="{target: '#origin-manage'}">
-            <i class="am-icon-graduation-cap"></i> 班级 / 校友组织
+            <i class="am-icon-graduation-cap"></i> 组织及组织管理
             <i class="am-icon-angle-right am-fr am-margin-right"></i>
         </a>
         <ul class="am-list am-collapse admin-sidebar-sub" id="origin-manage">
@@ -28,10 +28,10 @@
     <!-- 用户管理 -->
     <li class="admin-parent" id="bar-user">
         <a class="am-cf" href="javascript:void(0)" data-am-collapse="{target: '#user-manage'}">
-            <i class="am-icon-group"></i> 用户管理 <i class="am-icon-angle-right am-fr am-margin-right"></i></a>
+            <i class="am-icon-group"></i> 校友管理 <i class="am-icon-angle-right am-fr am-margin-right"></i></a>
         <ul class="am-list am-collapse admin-sidebar-sub" id="user-manage">
-            <li><a href="${pageContext.request.contextPath}/user.action"><i class="am-icon-user"></i> 用户列表 </a></li>
-            <li><a href="${pageContext.request.contextPath}/user/add.action"><i class="am-icon-plus-square"></i> 添加用户</a></li>
+            <li><a href="${pageContext.request.contextPath}/user.action"><i class="am-icon-user"></i> 校友列表 </a></li>
+            <li><a href="${pageContext.request.contextPath}/user/add.action"><i class="am-icon-plus-square"></i> 添加校友</a></li>
         </ul>
     </li>
 
