@@ -25,8 +25,8 @@
     <div class="admin-content" id="admin-content">
         <div class="am-cf am-padding">
             <div class="am-fl am-cf">
-                <strong class="am-text-primary am-text-lg">信息中心</strong> /
-                <small>信息发布</small>
+                <strong class="am-text-primary am-text-lg">新闻/帖子 管理</strong> /
+                <small>新闻发布</small>
             </div>
         </div>
         <div class="am-tabs  am-margin" data-am-tabs>
@@ -52,29 +52,18 @@
                                 <span class="error_span"> * </span>类型
                             </div>
                             <div class="am-u-sm-4 am-u-end">
-                                <select name="infoType" id="infoType"
-                                        data-am-selected="{btnSize:'sm'}" class="am-input-sm" required>
-                                    <c:forEach items="${infoTypes}" var="type">
-                                        <option value="${type.value}"
-                                                <c:if test="${type.value == 'AN'}">selected</c:if>>${type.name}</option>
-                                    </c:forEach>
-                                </select>
+
+
+
+                                        <option value="AN"
+                                               selected>校内新闻</option>
+
+
                                 <span class="error_span" id="info-type-span"></span>
                             </div>
                         </div>
 
-                        <div class="am-g am-margin-top-sm">
-                            <div class="am-u-sm-2 am-text-right">主题</div>
-                            <div class="am-u-sm-4 am-u-end">
-                                <select name="theme" id="theme" required
-                                        data-am-selected="{btnSize:'sm'}" class="am-input-sm">
-                                    <option value="">请选择...</option>
-                                    <c:forEach items="${infoThemes}" var="the">
-                                        <option value="${the.value}">${the.name}</option>
-                                    </c:forEach>
-                                </select>
-                            </div>
-                        </div>
+
 
                         <div class="am-g am-margin-top-sm">
                             <div class="am-u-sm-2 am-text-right">

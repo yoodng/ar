@@ -1,11 +1,4 @@
-/**  
- * @Title: CmController.java
- * @Package com.yd.ar.manage.controller.origin
- * @Description: TODO
- * @author Mr.Black
- * @date 2016年3月2日 下午11:25:52
- * @version V1.0  
- */
+
 package com.yd.ar.manage.controller.classes;
 
 import java.util.Map;

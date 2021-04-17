@@ -3,12 +3,12 @@
 
 <ul class="am-list admin-sidebar-list">
     <!-- 首页 bar -->
-    <li id="bar-home"><a href="${pageContext.request.contextPath}/manage.action"><span class="am-icon-home"></span> 首页</a></li>
+    <li id="bar-home"><a href="${pageContext.request.contextPath}/manage.action"><span class="am-icon-home"></span>首页</a></li>
 
     <!-- 新闻中心 -->
     <li class="admin-parent" id="bar-info">
         <a class="am-cf" href="${pageContext.request.contextPath}/info.action">
-            <span class="am-icon-newspaper-o"></span> 论坛信息管理
+            <span class="am-icon-newspaper-o"></span> 新闻/帖子 管理
         </a>
     </li>
 

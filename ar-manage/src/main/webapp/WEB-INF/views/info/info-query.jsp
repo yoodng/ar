@@ -4,8 +4,7 @@
 
 <div class="am-cf am-padding">
     <div class="am-fl am-cf">
-        <strong class="am-text-primary am-text-lg">信息中心</strong> /
-        <small>所有信息</small>
+        <strong class="am-text-primary am-text-lg">新闻 / 各种动态</strong>
     </div>
 </div>
 
@@ -13,7 +12,7 @@
     <div class="am-u-md-9 am-cf">
         <div class="am-btn-group am-btn-group-xs">
             <a class="am-btn am-btn-default" href="info/add.action">
-                <span class="am-icon-plus"></span> 发布消息
+                <span class="am-icon-plus"></span> 发布新闻
             </a>
             <c:if test="${state=='D'}">
                 <button class="am-btn am-btn-default" type="button" onclick="auditInfos()">
@@ -45,8 +44,9 @@
                 <option value="D" name="state" <c:if test="${state=='D'}">selected</c:if>>未审核</option>
                 <option value="X" name="state" <c:if test="${state=='X'}">selected</c:if>>已删除</option>
             </select>
-            &nbsp;&nbsp;&nbsp;&nbsp;信息分类：
+            &nbsp;&nbsp;&nbsp;&nbsp;动态分类：
             <select id="infoType" class="dll-query">
+
                 <option value="" <c:if test="${infoType == ''}">selected</c:if>>全部</option>
                 <c:forEach items="${infoTypes}" var="type">
                     <option value="${type.value}" name="infoType"
@@ -91,7 +91,7 @@
                     <tr>
                         <td><input type="checkbox" value="${info.infoId}"/></td>
                         <td>
-                            <a href="${pageContext.request.contextPath}/info/detail.action?infoId=${info.infoId}" target="blank">
+                            <a href="${pageContext.request.contextPath}/news/detail.action?infoId=${info.infoId}" target="blank">
                                 <ar:sub value="${info.infoTitle}" length="15"></ar:sub>
                             </a>
                             <c:if test="${info.isTop==1}">
