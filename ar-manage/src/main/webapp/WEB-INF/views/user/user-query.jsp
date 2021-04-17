@@ -97,7 +97,7 @@
                             </c:if>
                         </td>
                         <td>
-                            <c:if test="${user.isAdmin == 0}">前台用户</c:if>
+                            <c:if test="${user.isAdmin == 0}">校友用户</c:if>
                             <c:if test="${user.isAdmin == 1}">管理员</c:if>
                         </td>
                         <td>${user.trueName}</td>
