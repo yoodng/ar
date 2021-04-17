@@ -52,13 +52,14 @@
                                 <span class="error_span"> * </span>类型
                             </div>
                             <div class="am-u-sm-4 am-u-end">
+                                <select name="infoType" id="infoType"
+                                        data-am-selected="{btnSize:'sm'}" class="am-input-sm" required>
+                                    <option value="AN" selected>校内新闻</option>
+                                    <option value="BBS" >论坛帖子</option>
 
 
 
-                                        <option value="AN"
-                                               selected>校内新闻</option>
-
-
+                                </select>
                                 <span class="error_span" id="info-type-span"></span>
                             </div>
                         </div>
