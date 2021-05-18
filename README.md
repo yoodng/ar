@@ -32,11 +32,11 @@ ar-common生成jar 安装在本地，ar-manage和ar-portal依赖此库。
 
 门户网站：
 访问地址: http://localhost:8080/ar_portal/login.action
-用户名/密码: black/12345678
+用户名/密码: 123/12345678
 
 后台管理：
 访问地址: http://localhost:8080/ar-portal/manage.action
-用户名/密码: sa/12345678
+用户名/密码: admin/12345678
 
 ### 项目打包
 
