@@ -7,7 +7,7 @@
 <c:forEach items="${page.beanList}" var="comment" varStatus="status">
     <li class="media" id="comment-li-${comment.commentId}">
         <a class="pull-left" href="${pageContext.request.contextPath}/ta/show.action?userId=${comment.userId}">
-            <img class="thumbnail img-responsive center-block" src="${comment.portrait}" style="width: 65px"/>
+            <img class="thumbnail img-responsive center-block" src="${pageContext.request.contextPath}/${comment.portrait}" style="width: 65px"/>
         </a>
         <div class="media-body">
             <a href="javascript:;" class="btn btn-primary btn-xs pull-right reply"

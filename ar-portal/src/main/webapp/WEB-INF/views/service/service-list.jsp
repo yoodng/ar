@@ -5,7 +5,7 @@
     <h4>校园服务</h4>
     <ul>
         <hr>
-        <li><a href="http://www.xzit.edu.cn/" target="_blank">学校官网</a></li><hr>
+        <li><a href="http://www.snut.edu.cn/" target="_blank">学校官网</a></li><hr>
         <c:forEach items="${services}" var="service">
             <li><a href="${pageContext.request.contextPath}/service/school.action?id=${service.infoId}">${service.infoTitle}</a></li><hr>
         </c:forEach>
